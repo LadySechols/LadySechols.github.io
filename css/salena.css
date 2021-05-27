@@ -1,11 +1,12 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: darkslategray;
+    background-color: rgb(33, 56, 56);
 }
 
 h1 {
-    color:darkgray
+    color:rgb(149, 114, 114);
 }
 div.p {
-    color:lightgrey
+    color:rgb(246, 209, 209);
+    padding: rgb(156, 156, 127);
 }
