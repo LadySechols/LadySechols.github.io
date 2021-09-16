@@ -37,8 +37,6 @@ p {
     padding: 0;
     margin: 0;
     background-color: darkgrey;
-    text-align: center;
-    list-style-position: inside;
     overflow: hidden;
 }
 
