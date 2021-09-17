@@ -34,8 +34,6 @@ p {
 }
 
 #genre ul {
-    display: flex;
-    justify-content: space-evenly;
     font-size: 22px;
     list-style-type: none;
     padding: 0;
@@ -45,15 +43,14 @@ p {
 }
 
 #genre li {
-    display: flex;
-    justify-content: center;
-    float: left;
     padding: 16px;
     margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #genre li:hover {
     background-color: rgb(108, 161, 179);
+    font: darkslategray;
 }
 
 img {

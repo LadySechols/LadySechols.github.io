@@ -9,7 +9,9 @@ var fantasyArray = [
 ]
 
 let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
+document.getElementById("fan").innerHTML;
 console.log(fantasy);
+
 
 var scifiArray = [
     'meow',
@@ -38,10 +40,9 @@ var crimeArray = [
     'serial killers',
     'pineapple on pizza',
     'long pointy nails',
-    'fried crickets',
+    'eating fried crickets',
     'kicking puppies'
 ]
-
 let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
 console.log(crime);
 
@@ -56,6 +57,10 @@ var challengeArray = [
 let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
 console.log(challenge);
 
+// var randomImg = [
+//     '/img/darkflower.png',
+
+// ]
 
 //make it generate a new story each time it is clicked, randomly
 
