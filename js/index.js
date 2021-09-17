@@ -8,6 +8,9 @@ var fantasyArray = [
     'Alright'
 ]
 
+let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
+console.log(fantasy);
+
 var scifiArray = [
     'meow',
     'bats',
@@ -16,6 +19,9 @@ var scifiArray = [
     'outer space'
 ]
 
+let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
+console.log(scifi);
+
 var dramaArray =[
     'love',
     'hate',
@@ -23,6 +29,9 @@ var dramaArray =[
     'friends',
     'animals'
 ]
+
+let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
+console.log(drama);
 
 var crimeArray = [
     'death',
@@ -33,6 +42,9 @@ var crimeArray = [
     'kicking puppies'
 ]
 
+let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
+console.log(crime);
+
 var challengeArray = [
     'Compliment someone',
     'Compliment Yourself',
@@ -41,6 +53,9 @@ var challengeArray = [
     'Help someone without being asked',
     'Leave the mail person a present in the mailbox'
 ]
+let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
+console.log(challenge);
+
 
 //make it generate a new story each time it is clicked, randomly
 
