@@ -41,6 +41,7 @@ p {
 }
 
 #genre li {
+    flex-flow: ;
     float: left;
     display: inline;
     padding: 16px;
