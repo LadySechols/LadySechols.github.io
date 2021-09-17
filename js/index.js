@@ -2,15 +2,30 @@
 var $ = function(id) { return document.getElementById(id); };
 
 //generate a random story thing to pop up when clicked
-var fantasyArray = [
+// const myArray = ["stone","paper","scissors"];
+// const embedElements = () => {
+//    myArray.forEach(element => {
+//       document.getElementById('result').innerHTML +=
+//       `<div>${element}</div><br />`;
+//       // here result is the id of the div present in the DOM
+//    });
+// };
+const fantasyArray = [
     'Something',
     'Another',
     'All things',
     'Your Mom',
     'Sorry for your face',
     'Alright'
-]
-let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
+];
+const embedElements = () =>
+{
+    fantasyArray.forEach(element => {
+        document.getElementById('fan').innerHTML +=
+        `<div>${element}</div><br />`;
+    });
+};
+    let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
 console.log(fantasy);
 
 
