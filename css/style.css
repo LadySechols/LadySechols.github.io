@@ -13,6 +13,8 @@ p {
 }
 
 #nav ul{
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none; 
     margin: 0;
     padding: 0;
@@ -32,6 +34,8 @@ p {
 }
 
 #genre ul {
+    display: flex;
+    justify-content: space-evenly;
     font-size: 22px;
     list-style-type: none;
     padding: 0;
@@ -41,9 +45,9 @@ p {
 }
 
 #genre li {
-    flex-flow: ;
+    display: flex;
+    justify-content: center;
     float: left;
-    display: inline;
     padding: 16px;
     margin: auto;
 }
