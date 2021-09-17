@@ -1,3 +1,6 @@
+"use strict";
+var $ = function(id) { return document.getElementById(id); };
+
 //generate a random story thing to pop up when clicked
 var fantasyArray = [
     'Something',
@@ -7,9 +10,7 @@ var fantasyArray = [
     'Sorry for your face',
     'Alright'
 ]
-
 let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
-document.getElementById("fan").innerHTML;
 console.log(fantasy);
 
 
@@ -56,6 +57,20 @@ var challengeArray = [
 ]
 let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
 console.log(challenge);
+
+//help code
+// window.onload = function() {
+//     // get the a tags
+//     var faqs = $("faqs");
+//     var linkElements = faqs.getElementsByTagName("a");
+    
+//     // attach event handler for each a tag	    
+//     for (var i = 0; i < linkElements.length; i++ ) {
+//     	linkElements[i].onclick = toggle;
+//     }
+//     // set focus on first h2 tag's <a> tag
+//     linkElements[0].focus();       
+// };
 
 // var randomImg = [
 //     '/img/darkflower.png',
