@@ -11,7 +11,7 @@
 //    });
 // };
 
-function getArr(){
+function getFantasy(){
     var fantasyArray = [
         'Something',
         'Another',
@@ -21,9 +21,11 @@ function getArr(){
         'Alright'
     ];
     let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
-    document.getElementById("fan").innerHTML=fantasy;
+    document.getElementById("fan").innerHTML=fantasyArray;
     console.log(fantasy);
+};
 
+function getSci() {
     var scifiArray = [
         'meow',
         'bats',
@@ -33,9 +35,11 @@ function getArr(){
     ]
     
     let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
-    document.getElementById("sci").innerHTML=scifi;
+    document.getElementById("sci").innerHTML=scifiArray;
     console.log(scifi);
+};
 
+function getDrama() {
     var dramaArray =[
         'love',
         'hate',
@@ -45,10 +49,11 @@ function getArr(){
     ]
     
     let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
-    document.getElementById("drama").innerHTML=drama;
+    document.getElementById("drama").innerHTML=dramaArray;
     console.log(drama);
+};
     
-
+function getCrime() {
     var crimeArray = [
         'death',
         'serial killers',
@@ -59,10 +64,11 @@ function getArr(){
     ]
 
     let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
-    document.getElementById("crime").innerHTML=crime;
+    document.getElementById("crime").innerHTML=crimeArray;
     console.log(crime);
+};
 
-    
+function getChallenge() {    
     var challengeArray = [
         'Compliment someone',
         'Compliment Yourself',
@@ -72,7 +78,7 @@ function getArr(){
         'Leave the mail person a present in the mailbox'
     ]
     let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
-    document.getElementById("daily").innerHTML=challenge;
+    document.getElementById("daily").innerHTML=challengeArray;
     console.log(challenge);
 };
 
