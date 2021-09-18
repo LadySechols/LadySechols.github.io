@@ -1,5 +1,5 @@
 "use strict";
-//var $ = function(id) { return document.getElementById(id); };
+var $ = function(id) { return document.getElementById(id); };
 
 //generate a random story thing to pop up when clicked
 // const myArray = ["stone","paper","scissors"];
@@ -21,7 +21,7 @@ function getFantasy(){
         'Alright'
     ];
     let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
-    document.getElementById("fan").innerHTML=fantasy;
+    document.getElementById("fan").innerHTML = fantasy;
     console.log(fantasy);
 };
 
@@ -35,7 +35,7 @@ function getSci() {
     ]
     
     let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
-    document.getElementById("sci").innerHTML=scifiArray;
+    document.getElementById("sci").innerHTML = scifi;
     console.log(scifi);
 };
 
@@ -47,9 +47,8 @@ function getDrama() {
         'friends',
         'animals'
     ]
-    
     let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
-    document.getElementById("drama").innerHTML=dramaArray;
+    document.getElementById("drama").innerHTML = drama;
     console.log(drama);
 };
     
@@ -62,9 +61,8 @@ function getCrime() {
         'eating fried crickets',
         'kicking puppies'
     ]
-
     let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
-    document.getElementById("crime").innerHTML=crimeArray;
+    document.getElementById("crime").innerHTML = crime;
     console.log(crime);
 };
 
@@ -78,7 +76,7 @@ function getChallenge() {
         'Leave the mail person a present in the mailbox'
     ]
     let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
-    document.getElementById("daily").innerHTML=challengeArray;
+    document.getElementById("daily").innerHTML = challenge;
     console.log(challenge);
 };
 
