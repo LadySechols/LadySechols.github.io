@@ -1,5 +1,5 @@
 "use strict";
-var $ = function(id) { return document.getElementById(id); };
+//var $ = function(id) { return document.getElementById(id); };
 
 //generate a random story thing to pop up when clicked
 // const myArray = ["stone","paper","scissors"];
@@ -10,68 +10,81 @@ var $ = function(id) { return document.getElementById(id); };
 //       // here result is the id of the div present in the DOM
 //    });
 // };
-const fantasyArray = [
-    'Something',
-    'Another',
-    'All things',
-    'Your Mom',
-    'Sorry for your face',
-    'Alright'
-];
-const embedElements = () =>
-{
-    fantasyArray.forEach(element => {
-        document.getElementById('fan').innerHTML +=
-        `<div>${element}</div><br />`;
-    });
+
+function getArr(){
+    var fantasyArray = [
+        'Something',
+        'Another',
+        'All things',
+        'Your Mom',
+        'Sorry for your face',
+        'Alright'
+    ];
+    let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
+    document.getElementById("fan").innerHTML=fantasy;
+    console.log(fantasy);
+
+    var scifiArray = [
+        'meow',
+        'bats',
+        'big spiders',
+        'tree people',
+        'outer space'
+    ]
+    
+    let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
+    document.getElementById("sci").innerHTML=scifi;
+    console.log(scifi);
+
+    var dramaArray =[
+        'love',
+        'hate',
+        'family',
+        'friends',
+        'animals'
+    ]
+    
+    let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
+    document.getElementById("drama").innerHTML=drama;
+    console.log(drama);
+    
+
+    var crimeArray = [
+        'death',
+        'serial killers',
+        'pineapple on pizza',
+        'long pointy nails',
+        'eating fried crickets',
+        'kicking puppies'
+    ]
+
+    let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
+    document.getElementById("crime").innerHTML=crime;
+    console.log(crime);
+
+    
+    var challengeArray = [
+        'Compliment someone',
+        'Compliment Yourself',
+        'Call a friend (not text)',
+        'Smile at someone',
+        'Help someone without being asked',
+        'Leave the mail person a present in the mailbox'
+    ]
+    let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
+    document.getElementById("daily").innerHTML=challenge;
+    console.log(challenge);
 };
-    let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
-console.log(fantasy);
 
+    
+// function getValue() {
+//     getElementById("fantasy").innerHTML = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
+// }
+    // let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)]; 
 
-var scifiArray = [
-    'meow',
-    'bats',
-    'big spiders',
-    'tree people',
-    'outer space'
-]
-
-let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
-console.log(scifi);
-
-var dramaArray =[
-    'love',
-    'hate',
-    'family',
-    'friends',
-    'animals'
-]
-
-let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
-console.log(drama);
-
-var crimeArray = [
-    'death',
-    'serial killers',
-    'pineapple on pizza',
-    'long pointy nails',
-    'eating fried crickets',
-    'kicking puppies'
-]
-let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
-console.log(crime);
-
-var challengeArray = [
-    'Compliment someone',
-    'Compliment Yourself',
-    'Call a friend (not text)',
-    'Smile at someone',
-    'Help someone without being asked',
-    'Leave the mail person a present in the mailbox'
-]
-let challenge = challengeArray[Math.floor(Math.random() * challengeArray.length)]; 
-console.log(challenge);
+/* <div id="fantasy"></div>
+            <a href="#">Fantasy</a>
+            <input type="button" onclick="getItem()" value="Fantasy"/> */
 
 //help code
 // window.onload = function() {
