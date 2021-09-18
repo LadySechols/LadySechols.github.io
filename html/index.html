@@ -7,7 +7,7 @@
     <title>Say What</title>
 
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/index.js" defer></script>
+    <script type="text/javascript" src="/js/index.js" defer></script>
 
 </head>
 <body>
@@ -29,8 +29,8 @@
         <p>This is where you will <strike>die</strike> go on a journey. Choose wisely.</p>
         
         
-            <input type="button" id="fan" value="Fantasy" onclick="getFantasy();" />
-            <p id="fan"></p>
+            <button id="fan" onclick="getFantasy()">Fantasy</button>
+            <p onclick="getFantasy()"></p>
         
             <input type="button" id="sci" value="Sci-Fi" onclick="getSci();" />
             <p id="sci"></p>            

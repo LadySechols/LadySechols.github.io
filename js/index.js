@@ -21,7 +21,7 @@ function getFantasy(){
         'Alright'
     ];
     let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
-    document.getElementById("fan").innerHTML=fantasyArray;
+    document.getElementById("fan").innerHTML=fantasy;
     console.log(fantasy);
 };
 
