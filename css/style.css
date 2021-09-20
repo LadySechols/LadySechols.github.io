@@ -13,6 +13,15 @@ p {
 }
 
 /*needs style   #buttons {}*/
+#butstyle {
+    background-color: darkgrey;
+    border-style: hidden;
+}
+
+#butstyle:hover {
+    text-decoration: underline;
+    border-style: dotted;
+}
 
 #buttons p {
     font-size: 16px;
@@ -28,7 +37,7 @@ p {
     padding: 0;
     overflow:hidden;
     border: 1px solid black;
-    background-color: rgb(55, 28, 129);
+    background-color: rgb(255, 255, 255);
 }
 
 #nav li {
