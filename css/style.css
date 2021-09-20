@@ -18,7 +18,6 @@ p {
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(11, 4, 32);
-    
 }
 
 #nav ul{
@@ -42,24 +41,14 @@ p {
     background-color: rgb(56, 134, 124);
 }
 
-#genre ul {
+#genre {
     font-size: 22px;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     background-color: darkgrey;
     overflow: hidden;
-}
-
-#genre li {
-    padding: 16px;
-    margin: auto;
+    padding: 20px;
+    margin: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#genre li:hover {
-    background-color: rgb(108, 161, 179);
-    font: darkslategray;
 }
 
 img {
