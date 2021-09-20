@@ -13,12 +13,12 @@ var $ = function(id) { return document.getElementById(id); };
 
 function getFantasy(){
     var fantasyArray = [
-        'Something',
-        'Another',
-        'All things',
+        'Fog is all you see while you walk along nothing. There is only darkness, but for the little bit of light coming from the fog. Where the light reflect off the fog is a mystery. An erie feeling in your gut confuses and warps the mind. Leading on trails that make no sense. There is no direction and no way around. Walking feel like forever and going forever nowhere. All that is true, but unknown, is the heart that once was, no longer sings.',
+        'She thinks she only tripped over a log. Only it was not. There air was thick and felt weird. A sound could be heard from all around. No sense of direction because the noise came from all around and bounced off of nothing. This made the sound fade away once it reach her. Dread filled her as soon as the idea of being alone grew like a weed in her brain.',
+        'Trees',
         'Your Mom',
-        'Sorry for your face',
-        'Alright'
+        'Farting ducks',
+        'College Professor'
     ];
     let fantasy = fantasyArray[Math.floor(Math.random() * fantasyArray.length)];
     document.getElementById("fan").innerHTML = fantasy;
@@ -27,11 +27,12 @@ function getFantasy(){
 
 function getSci() {
     var scifiArray = [
-        'meow',
-        'bats',
-        'big spiders',
-        'tree people',
-        'outer space'
+        'running around',
+        'with many cats',
+        'barfing gas',
+        'cuddling',
+        'opening toilets',
+        'with stinky feet'
     ]
     
     let scifi = scifiArray[Math.floor(Math.random() * scifiArray.length)]; 
@@ -41,11 +42,12 @@ function getSci() {
 
 function getDrama() {
     var dramaArray =[
-        'love',
+        'outside',
         'hate',
-        'family',
-        'friends',
-        'animals'
+        'antagonize',
+        'meditating',
+        'meowing',
+        'staring'
     ]
     let drama = dramaArray[Math.floor(Math.random() * dramaArray.length)]; 
     document.getElementById("drama").innerHTML = drama;
@@ -54,12 +56,12 @@ function getDrama() {
     
 function getCrime() {
     var crimeArray = [
-        'death',
-        'serial killers',
-        'pineapple on pizza',
-        'long pointy nails',
-        'eating fried crickets',
-        'kicking puppies'
+        'and eating ice cream cones on fire.',
+        'and casting shadows.',
+        'and smelling the ear wax.',
+        'and developing a new strain of human animal DNA.',
+        ', eating fried crickets.',
+        ', kicking puppies.'
     ]
     let crime = crimeArray[Math.floor(Math.random() * crimeArray.length)]; 
     document.getElementById("crime").innerHTML = crime;
