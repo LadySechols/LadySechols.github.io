@@ -24,22 +24,29 @@
             animation: 4s linear 0s infinite alternate move_eye;
 }
 @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
-    @keyframes move_eye { from { margin-left: -20%; } to 
-                            { margin-left: 100%; }  } */
+    @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  } */
 
-.cylon_eye {
+/* body {
     background-color: red;
-    background: linear-gradient(to right, 
-        rgba(0, 0, 0, .9) 25%, 
-        rgba(0, 0, 0, 0.1) 50%, 
-        rgba(0, 0, 0, .9) 75%);
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, .9) 75%);
     color: white;
-    animation: move-eye 4s linear 0s infinite alternate;
+    animation:  .5s linear 1s infinite alternate;
     height: 100%;
     padding: 10px;
-/* }
-@keyframes move-eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
-@keyframes move-eye { from { margin-left: -20%; } to { margin-left: 100%; }  }  */
+}
+@keyframes gradient { from { margin-left: -20%; } to { margin-left: 100%; }  }
+@keyframes gradient { from { margin-left: -20%; } to { margin-left: 100%; }  }  */
+
+html {
+    background-color: red;
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, .9) 75%);
+    color: white;
+    animation:  .5s linear 1s infinite alternate;
+    height: 100%;
+    padding: 10px;
+}
+@keyframes gradient { from { margin-left: -20%; } to { margin-left: 100%; }  }
+@keyframes gradient { from { margin-left: -20%; } to { margin-left: 100%; }  } 
 
 
 /* https://www.gradient-animator.com/ */
