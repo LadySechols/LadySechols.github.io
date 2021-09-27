@@ -1,0 +1,33 @@
+body {
+    background-color: darkslategray;
+    border: 1px solid #000;
+}
+
+header {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid dimgray;
+}
+
+#intro {
+    display:flexbox;
+    border: 1px solid dimgray;
+}
+
+#contact {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid dimgray;
+}
+
+#hobbies {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid dimgray;
+}
+
+#cert {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid dimgray;
+}
