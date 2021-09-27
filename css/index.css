@@ -3,21 +3,45 @@ body {
     border: 1px solid #000;
 }
 
+#whole {
+    display: flex;
+    justify-content: space-between;
+}
+
 header {
     margin: 5px;
     padding: 5px;
     border: 1px solid dimgray;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 #intro {
-    display:flexbox;
+    display: flex;
+    justify-content:space-evenly;
     border: 1px solid dimgray;
+    font-size: 20px;
 }
 
 #contact {
     margin: 5px;
     padding: 5px;
     border: 1px solid dimgray;
+}
+
+a {
+    color: #000;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:clicked {
+    color: green;
 }
 
 #hobbies {
