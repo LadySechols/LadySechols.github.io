@@ -1,17 +1,20 @@
 body {
     background-color: darkslategray;
     border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
 }
 
 #whole {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid darkolivegreen; */
 }
 
 header {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid dimgray;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid dimgray; */
 }
 
 h1 {
@@ -24,11 +27,13 @@ h1 {
     justify-content:space-evenly;
     border: 1px solid dimgray;
     font-size: 20px;
+    margin: 5px;
+    padding: 10px;
 }
 
 #contact {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid dimgray;
 }
 
@@ -44,7 +49,7 @@ a:clicked {
     color: green;
 }
 
-#hobbies {
+#assets {
     margin: 5px;
     padding: 5px;
     border: 1px solid dimgray;
