@@ -1,0 +1,26 @@
+{
+  "name": "ladysechols.github.io",
+  "version": "1.0.0",
+  "description": "npm json install for lady sechols github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LadySechols/LadySechols.github.io.git"
+  },
+  "keywords": [
+    "ladysechols"
+  ],
+  "author": "Salena Echols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LadySechols/LadySechols.github.io/issues"
+  },
+  "homepage": "https://github.com/LadySechols/LadySechols.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
